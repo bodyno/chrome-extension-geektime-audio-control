@@ -30,7 +30,6 @@
         "https://*/*"
       ],
       "js": [
-        "scripts/hls.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",

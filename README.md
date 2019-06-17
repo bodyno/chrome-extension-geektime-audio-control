@@ -1,14 +1,8 @@
 # chrome-extension-geektime-audio-control
 
-谷歌浏览器下极客时间音频播放扩展插件
+#谷歌浏览器下极客时间扩展插件
 
-支持加速播放
-
-按键快捷播放
-
-a键: 播放|暂停
-
-q键: 播放速率
+## 6.17 增加允许复制功能
 
 打开扩展程序控制中心 chrome://extensions
 
