@@ -3,6 +3,7 @@ function allowCopy () {
   const imgs = root.querySelectorAll('img')
   const lastImg = imgs[imgs.length - 1]
   const articleEle = lastImg.parentNode.parentNode
+  console.log(articleEle)
 
   articleEle.addEventListener('copy', (e) => {
     e.stopPropagation()
@@ -10,7 +11,7 @@ function allowCopy () {
 }
 
 function main () {
-  setTimeout(allowCopy, 1000)
-
+  if (!location.href.includes('time.geekbang.org')) return
+  setTimeout(allowCopy, 3000)
 }
 main()
